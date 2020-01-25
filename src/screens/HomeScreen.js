@@ -9,7 +9,7 @@ export default class HomeScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>I'm the MyComponent component</Text>
+        <Text style={styles.text}>HomeScreen</Text>
       </View>
     );
   }
@@ -19,4 +19,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
+  text: {
+    textAlign: 'center',
+  }
 });
